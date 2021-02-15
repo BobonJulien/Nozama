@@ -30,7 +30,9 @@ public class CLI001_para {
 
   @Test
   public void testCLI001() throws Exception {
+	  //Navigate to URL
     driver.get("http://127.0.0.1/nozama/");
+   // Verify Nom users
     try {
       assertTrue(driver.findElement(By.xpath("//div[@id='edit-name-wrapper']/label")).getText().matches("^Nom d'utilisateur : [\\s\\S]*$"));
     } catch (Error e) {
