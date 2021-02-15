@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class CLI001 {
+public class CLI001Test {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
